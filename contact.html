@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a class= "index2.html" href="index.html">Home</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header> 
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>java script practise</title>
+</head>
+<body>
+    <h2 id="tit">This is my contact page</h2>
+    <button id="btn">click me</button>
+    <br><br><br>
+    
+    
+    <h2></h2>leave a message</h2>
+    <input type="text" id="addlist">
+    <button id="add">enter</button>
+    <p id="box4"></p>
+    
+    <script>
+        document.getElementById('btn').addEventListener('click',change);
+
+        function change() {
+            document.getElementById('tit').style.color= "red";
+        }
+
+        document.getElementById('btn2').addEventListener('click', newstyle);
+
+        function newstyle() {
+            let things = document.getElementsByClassName('list');
+            for(i=0; i < things.length; i++){
+                things[i].style.backgroundColor = "red";
+            } 
+        }
+
+        document.getElementById('probtn').addEventListener('click', display);
+
+        function display() {
+            let firstname="sam";
+            document.getElementById("box").innerHTML= "my name is " + firstname;
+            let age=50;
+            document.querySelector('#box2').innerHTML= "i am " + age +" years old";
+        }
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>   
+</body>
+</html>
